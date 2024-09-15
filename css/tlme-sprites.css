@@ -1,0 +1,44 @@
+/**
+ * This file contains the css/tlme-sprites.css file for project RWS-0001-A
+ *
+ * CSS Version:3.0
+ *
+ * File Information:
+ * Project Name: RWS-0001-A
+ * Section Name: CSS
+ * File Name: tlme-sprites.css
+ * Author: Troy L. Marker
+ * Language: CSS 3.0
+ *
+ * File Copyright: 06/15/2024
+ */
+.add {
+    left: 0;
+    width: 20px;
+    background: url(https://assets.tlme.us/img/spritesheet.png) 0 0;
+}
+.rename {
+    left: 0;
+    width: 20px;
+    background: url(https://assets.tlme.us/img/spritesheet.png) -20px 0;
+}
+.delete {
+    left: 0;
+    width: 20px;
+    background: url(https://assets.tlme.us/img/spritesheet.png) -40px 0;
+}
+.return {
+    left: 0;
+    width: 20px;
+    background: url(https://assets.tlme.us/img/spritesheet.png) -60px 0;
+}
+.update {
+    left: 0;
+    width: 20px;
+    background: url(https://assets.tlme.us/img/spritesheet.png) -80px 0;
+}
+.filter {
+    left: 0;
+    width: 20px;
+    background: url(https://assets.tlme.us/img/spritesheet.png) -100px 0;
+}

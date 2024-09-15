@@ -1,0 +1,38 @@
+/**
+ * This file contains the css/tlme-tables.css file for project RWS-0001-A
+ *
+ * CSS Version:3.0
+ *
+ * File Information:
+ * Project Name: RWS-0001-A
+ * Section Name: CSS
+ * File Name: tlme-tables.css
+ * Author: Troy L. Marker
+ * Language: CSS 3.0
+ *
+ * File Copyright: 06/15/2024
+ */
+#tlme-table {
+    border-collapse: collapse;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+#tlme-table td, #tlme-table th {
+    border: 1px solid blue;
+    padding: 10px;
+}
+#tlme-table th {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+#tlme-table tr:nth-child(even) {
+    background-color: aqua;
+}
+h1.tlme-caption {
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}

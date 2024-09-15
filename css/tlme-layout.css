@@ -1,0 +1,121 @@
+/**
+ * This file contains the css/tlme-layout.css file for project RWS-0001-A
+ *
+ * CSS Version:3.0
+ *
+ * File Information:
+ * Project Name: RWS-0001-A
+ * Section Name: CSS
+ * File Name: tlme-layout.css
+ * Author: Troy L. Marker
+ * Language: CSS 3.0
+ *
+ * File Copyright: 06/15/2024
+ */
+.tlme-100Container {
+    width: 100%; 
+}
+.tlme-80Container { 
+    width: 80%; 
+}
+.tlme-70Container { 
+    width: 70%; 
+}
+.tlme-60Container { 
+    width: 60%; 
+}
+.tlme-50Container { 
+    width: 50%; 
+}
+.tlme-40Container { 
+    width: 40%; 
+}
+.tlme-30Container { 
+    width: 30%; 
+}
+.tlme-35Container {
+    width:35%;
+}
+.tlme-20Container { 
+    width: 20%; 
+}
+.tlme-10Container { 
+    width: 10%; 
+}
+.tlme-center { 
+    margin-left: auto; 
+    margin-right:auto; 
+}
+.tlme-header { 
+    border-radius: 50px;
+    padding: 10px; 
+}
+.tlme-header .title { 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 3em;
+    text-align: center; 
+}
+.tlme-header .subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em; 
+    text-align: center; 
+}
+.tlme-error {
+    clear: both;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 36px; 
+    text-align: center;
+    margin-bottom: 25px; 
+    margin-top: 25px; 
+}
+.tlme-footer {
+    clear: both;
+    border-radius: 50px;
+    font-size: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px; 
+    padding: 10px; 
+    text-align: center; 
+}
+.tlme-menu {
+    display: inline-block;
+    line-height: 45px;
+    margin: 20px auto;
+    text-align: center;
+}
+a.button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    border: 1px outset whitesmoke;
+    border-radius: 50px;
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+}
+a.button:hover {
+    color: white;
+    background-color: blue;
+}
+#tlme-body {
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+#tlme-body .tlme-para {
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+#tlme-body dt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+#tlme-body dt::after {
+    content: ":";
+}
+#tlme-body dd {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 25px;
+}
